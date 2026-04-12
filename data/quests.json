@@ -1,0 +1,80 @@
+{
+  "neon_heist": {
+    "id": "neon_heist",
+    "name": "The Neon Heist",
+    "description": "A high-stakes robbery in the City Center.",
+    "location_id": "city_center",
+    "repeatable": false,
+    "cooldown": 0,
+    "experience": 500,
+    "steps": [
+      {
+        "id": "entry",
+        "description": "You stand before the heavily guarded Datacore. How do you plan to enter?",
+        "choices": [
+          {
+            "text": "Hack the side entrance.",
+            "requirements": { "hacking": 2 },
+            "next_step_id": "inside_datacore",
+            "exp_reward": 100
+          },
+          {
+            "text": "Bribe the guard.",
+            "rewards": { "currency": -1000 },
+            "next_step_id": "inside_datacore",
+            "exp_reward": 50
+          },
+          {
+            "text": "Force your way in.",
+            "requirements": { "combat": 3 },
+            "next_step_id": "inside_datacore",
+            "exp_reward": 100
+          }
+        ]
+      },
+      {
+        "id": "inside_datacore",
+        "description": "You are inside. The alarm is about to go off. What do you take?",
+        "choices": [
+          {
+            "text": "Download the secret files.",
+            "requirements": { "hacking": 4 },
+            "rewards": { "currency": 5000 },
+            "next_step_id": "",
+            "exp_reward": 200
+          },
+          {
+            "text": "Grab the physical prototype.",
+            "rewards": { "currency": 2000 },
+            "next_step_id": "",
+            "exp_reward": 100
+          }
+        ]
+      }
+    ]
+  },
+  "mining_run": {
+    "id": "mining_run",
+    "name": "Mining Run",
+    "description": "Extract valuable minerals from the caves.",
+    "location_id": "slums",
+    "repeatable": true,
+    "cooldown": 300000000000,
+    "experience": 100,
+    "steps": [
+      {
+        "id": "mine",
+        "description": "The cave walls are rich with ore.",
+        "choices": [
+          {
+            "text": "Use your pickaxe to mine.",
+            "item_req": ["pickaxe"],
+            "rewards": { "currency": 500 },
+            "next_step_id": "",
+            "exp_reward": 50
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "currency": {
+    "id": "currency",
+    "name": "Credits",
+    "description": "The universal digital currency of the city."
+  },
+  "influence": {
+    "id": "influence",
+    "name": "Influence",
+    "description": "Political and social capital in the metropolis."
+  }
+}

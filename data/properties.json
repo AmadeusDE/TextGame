@@ -1,0 +1,32 @@
+{
+  "nightclub": {
+    "id": "nightclub",
+    "name": "Neon Nightclub",
+    "description": "A high-end club that prints money.",
+    "price": 50000,
+    "resource_production": {
+      "currency": 1000
+    },
+    "production_interval": 60000000000
+  },
+  "safehouse": {
+    "id": "safehouse",
+    "name": "Grungy Safehouse",
+    "description": "A place to hide and recover.",
+    "price": 5000,
+    "resource_production": {
+      "currency": 50
+    },
+    "production_interval": 60000000000
+  },
+  "warehouse": {
+    "id": "warehouse",
+    "name": "Smuggler Warehouse",
+    "description": "A hub for illicit trade.",
+    "price": 25000,
+    "resource_production": {
+      "currency": 500
+    },
+    "production_interval": 60000000000
+  }
+}

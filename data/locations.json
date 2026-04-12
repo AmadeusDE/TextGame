@@ -1,0 +1,54 @@
+{
+  "city_center": {
+    "id": "city_center",
+    "name": "City Center",
+    "description": "The neon-lit heart of the metropolis.",
+    "connections": [
+      "slums",
+      "industrial_zone",
+      "test"
+    ],
+    "properties": [
+      "nightclub"
+    ],
+    "quests": [
+      "neon_heist"
+    ]
+  },
+  "industrial_zone": {
+    "id": "industrial_zone",
+    "name": "Industrial Zone",
+    "description": "Massive factories and shipping ports.",
+    "connections": [
+      "city_center"
+    ],
+    "properties": [
+      "warehouse"
+    ],
+    "quests": []
+  },
+  "slums": {
+    "id": "slums",
+    "name": "The Slums",
+    "description": "A dark and dangerous area where the forgotten live.",
+    "connections": [
+      "city_center"
+    ],
+    "properties": [
+      "safehouse"
+    ],
+    "quests": [
+      "mining_run"
+    ]
+  },
+  "test": {
+    "id": "test",
+    "name": "test",
+    "description": "test",
+    "connections": [
+      "city_center"
+    ],
+    "properties": [],
+    "quests": []
+  }
+}

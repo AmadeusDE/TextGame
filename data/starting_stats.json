@@ -1,0 +1,14 @@
+{
+  "location_id": "city_center",
+  "resources": {
+    "currency": 100000
+  },
+  "skills": {
+    "hacking": 1,
+    "combat": 1,
+    "persuasion": 1
+  },
+  "inventory": ["pickaxe"],
+  "level": 1,
+  "experience": 0
+}

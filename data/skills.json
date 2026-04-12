@@ -1,0 +1,17 @@
+{
+  "hacking": {
+    "id": "hacking",
+    "name": "Hacking",
+    "description": "Ability to bypass security and manipulate systems."
+  },
+  "combat": {
+    "id": "combat",
+    "name": "Combat",
+    "description": "Proficiency in physical confrontation."
+  },
+  "persuasion": {
+    "id": "persuasion",
+    "name": "Persuasion",
+    "description": "Ability to influence people through speech."
+  }
+}

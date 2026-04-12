@@ -1,0 +1,18 @@
+{
+  "ghost_in_the_shell": {
+    "id": "ghost_in_the_shell",
+    "name": "Ghost in the Shell",
+    "description": "Gain 20% more influence from hacking quests.",
+    "requirements": {
+      "hacking": 5
+    }
+  },
+  "smooth_talker": {
+    "id": "smooth_talker",
+    "name": "Smooth Talker",
+    "description": "Persuasion attempts are more likely to succeed.",
+    "requirements": {
+      "persuasion": 3
+    }
+  }
+}
