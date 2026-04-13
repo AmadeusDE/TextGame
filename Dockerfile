@@ -11,7 +11,6 @@ FROM alpine:latest
 WORKDIR /app
 COPY --from=builder /app/servergame .
 COPY --from=builder /app/data ./data
-COPY --from=builder /app/config.json .
 
 EXPOSE 8080
 
